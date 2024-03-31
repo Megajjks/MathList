@@ -1,0 +1,8 @@
+.cardAppLayout--Wrapper{
+    width: 100%;
+    margin: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, 300px);
+    padding: 1rem;
+}
