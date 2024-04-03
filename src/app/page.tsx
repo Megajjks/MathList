@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Navbar } from "@/components/navbar/navbar";
 import { Input } from "@/components/ui/input";
 import { CardAppLayout } from "@/components/cardAppLayout/cardAppLayout";
-import { appList } from "../data/appList";
+import { appList } from "@/data/appList";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");

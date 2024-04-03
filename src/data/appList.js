@@ -5,7 +5,7 @@ export const appList = [
         "avatarFallback": "FM",
         "description": "Resuelve problemas de matemáticas con AI, cubriendo desde aritmética hasta cálculo. Proporciona explicaciones paso a paso, gráficos y videos. Perfecto para tareas.",
         "appUrl": "https://apps.apple.com/es/app/fastmath-tomar-foto-resolver/id1438642238",
-        "excercisePath": ""
+        "excercisePath": "ejercicios/app-1"
     },
     {
         "title": "Mathway",
@@ -13,7 +13,7 @@ export const appList = [
         "avatarFallback": "MW",
         "description": "Editor online resuelve problemas de matemáticas desde básicas a avanzadas. Introduce datos para soluciones, gráficos e imágenes.​",
         "appUrl": "https://www.mathway.com/es/Algebra",
-        "excercisePath": ""
+        "excercisePath": "ejercicios/app-2"
     },
     {
         "title": "Cymath",

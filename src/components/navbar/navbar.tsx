@@ -9,6 +9,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { navItems } from "@/data/navBar";
 import "./navbar.css";
 import Link from "next/link";
 
@@ -25,21 +26,13 @@ export const Navbar = ({ title, LogoUrl }: INavbar) => {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Home
-              </NavigationMenuLink>
-            </Link>
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Ejercicios
-              </NavigationMenuLink>
-            </Link>
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Sobre nosotros
-              </NavigationMenuLink>
-            </Link>
+            {navItems.map((item, index) => (
+              <Link key={index} href={item.path} legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  {item.name}
+                </NavigationMenuLink>
+              </Link>
+            ))}
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
