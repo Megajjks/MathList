@@ -1,4 +1,5 @@
 "use client";
+import { useTranslations } from "next-intl";
 import { ICardApp } from "./consts";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
@@ -22,6 +23,7 @@ export const CardApp = ({
   excercisePath,
 }: ICardApp) => {
   const router = useRouter();
+  const t = useTranslations("appcard");
 
   const handleOnPrimaryBtn = () => {
     window.open(appUrl, "_blank");
@@ -46,10 +48,10 @@ export const CardApp = ({
           </CardContent>
         )}
         <CardFooter className="p-0 action-bar">
-          <Button onClick={handleOnPrimaryBtn}>Abrir</Button>
+          <Button onClick={handleOnPrimaryBtn}>{t("btn-primary")}</Button>
           {excercisePath && (
             <Button onClick={handleOnSecundaryBtn} variant="outline">
-              Ejercicios
+              {t("btn-secondary")}
             </Button>
           )}
         </CardFooter>

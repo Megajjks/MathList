@@ -1,0 +1,26 @@
+{
+  "home":{
+    "app_title": "Mate App",
+    "active_locale": "English",
+    "title": " Boost your math skills!",
+    "subtitle": "Discover apps to master each problem. Explore now!",
+    "search-bar":"Type the app name to search for",
+    "not-found": "No matches with what was searched 😔"
+  },
+  "toggle-language":{
+    "en":"English",
+    "es":"Spanish"
+  },
+  "toggle-theme":{
+    "light":"Light",
+    "dark":"Dark",
+    "system":"System"
+  },
+  "appcard":{
+    "btn-primary":"Open",
+    "btn-secondary":"Excercise"   
+  },
+  "excercise":{
+    "title":"Excercise with"
+  }
+}

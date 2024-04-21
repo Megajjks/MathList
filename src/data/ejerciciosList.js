@@ -48,5 +48,30 @@ export const ejerciciosList = [
             }
         ]
 
+    },
+    {
+        key:"app-3",
+        name:"Cymath",
+        list:[
+            {
+                type:"Calculo integral",
+                exercise:[
+                    "ejercicio 1x",
+                    "ejercicio 2x",
+                    "ejercicio 3x",
+                    "ejercicio 4x",
+                ]
+            },
+            {
+                type:"Calculo Diferencial",
+                exercise:[
+                    "ejercicio 1x",
+                    "ejercicio 2x",
+                    "ejercicio 3x",
+                    "ejercicio 4x",
+                ]
+            }
+        ]
+
     }
 ]

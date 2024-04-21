@@ -2,6 +2,7 @@
 import { INavbar } from "./consts";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ModeToggle } from "@/components/ui/ModeToggle";
+import { LanguageToggle } from "@/components/ui/LanguageToggle";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -38,6 +39,7 @@ export const Navbar = ({ title, LogoUrl }: INavbar) => {
       </NavigationMenu>
       <div className="navbar--cta">
         <ModeToggle />
+        <LanguageToggle />
       </div>
     </header>
   );

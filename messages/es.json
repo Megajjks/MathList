@@ -1,0 +1,26 @@
+{
+  "home":{
+    "app_title": "Mate App",
+    "active_locale": "Español",
+    "title": " ¡Potencia tus habilidades matemáticas!",
+    "subtitle": " Descubre apps para dominar cada problema. ¡Explora ya!",
+    "search-bar":"Escribe el nombre de tu app",
+    "not-found": "Sin coincidencias con lo buscado 😔"
+  },
+  "toggle-language":{
+    "en":"Ingles",
+    "es":"Español"
+  },
+  "toggle-theme":{
+    "light":"Claro",
+    "dark":"Oscuro",
+    "system":"Sistema"
+  },
+  "appcard":{
+    "btn-primary":"Abrir",
+    "btn-secondary":"Ejercicios"   
+  },
+  "excercise":{
+    "title":"Ejercicios con"
+  }
+}

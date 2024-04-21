@@ -4,7 +4,7 @@
     justify-items: center;   
     grid-template-columns: minmax(4rem, 10rem) 1fr minmax(4rem, 10rem);
     padding: 1rem;
-    z-index: 99999999;
+    z-index: 99;
 }
 .navbar--logo{
     display: flex;

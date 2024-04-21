@@ -19,7 +19,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/data*": ["./src/data/*"]
+      "@/data*": ["./src/data/*"],
+      "@/navigation": ["./src/navigations"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

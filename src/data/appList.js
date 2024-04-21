@@ -21,7 +21,7 @@ export const appList = [
         "avatarFallback": "CY",
         "description": "Solucionador matemático usa IA y heurística para resolver problemas paso a paso, como un profesor.",
         "appUrl": "https://www.cymath.com/sp",
-        "excercisePath": ""
+        "excercisePath": "ejercicios/app-3"
     },
     {
         "title": "PicSolve",
