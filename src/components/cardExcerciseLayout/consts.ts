@@ -1,4 +1,4 @@
-import { IExerciseList } from "@/app/ejercicios/[slug]/const";
+import { IExerciseList } from "@/app/[locale]/ejercicios/[slug]/const";
 export type ICardExcerciseLayout = {
     dataArray: IExerciseList[] | undefined;
 }
