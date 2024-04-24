@@ -11,7 +11,7 @@ export default function EjerciciosTemplate({
 }: {
   params: { slug: string };
 }) {
-  const t = useTranslations("home");
+  const t = useTranslations("excercise");
   const [page, setPage] = useState<IExerciseObject>();
 
   useEffect(() => {
