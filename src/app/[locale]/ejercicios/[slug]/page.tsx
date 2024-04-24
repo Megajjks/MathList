@@ -5,6 +5,7 @@ import { Navbar } from "@/components/navbar/navbar";
 import { ejerciciosList } from "@/data/ejerciciosList";
 import { IExerciseArray, IExerciseObject } from "./const";
 import { CardExerciseLayout } from "@/components/cardExcerciseLayout/cardExerciseLayout";
+import { ZoomImageLayout } from "@/components/zoomImageLayout/zoomImageLayout";
 export default function EjerciciosTemplate({
   params,
 }: {
@@ -38,6 +39,11 @@ export default function EjerciciosTemplate({
           <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center">
             {`Ejercicios con ${page?.name}`}
           </h1>
+          {page &&
+            page.examplesImageOfUseApp &&
+            page.examplesImageOfUseApp.length > 0 && (
+              <ZoomImageLayout imgArray={page?.examplesImageOfUseApp ?? []} />
+            )}
           <CardExerciseLayout dataArray={page?.list} />
         </div>
       </main>

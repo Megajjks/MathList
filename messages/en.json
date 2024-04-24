@@ -21,6 +21,7 @@
     "btn-secondary":"Excercise"   
   },
   "excercise":{
-    "title":"Excercise with"
+    "title":"Excercise with",
+    "examples": "How to use the application?"
   }
 }

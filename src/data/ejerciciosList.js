@@ -2,6 +2,20 @@ export const ejerciciosList = [
     {
         key:"app-1",
         name:"FastMath-Tomar Foto & Resolver",
+        examplesImageOfUseApp:[
+            {
+                path:"/exampleimg.jpg",
+                alt:"img 1"
+            },
+            {
+                path:"/exampleimg.jpg",
+                alt:"img 2"
+            },
+            {
+                path:"/exampleimg.jpg",
+                alt:"img 3"
+            },
+        ],
         list:[
             {
                 type:"Calculo integral",
@@ -27,6 +41,7 @@ export const ejerciciosList = [
     {
         key:"app-2",
         name:"Mathway",
+        examplesImageOfUseApp:[],
         list:[
             {
                 type:"Calculo integral",
@@ -52,6 +67,7 @@ export const ejerciciosList = [
     {
         key:"app-3",
         name:"Cymath",
+        examplesImageOfUseApp:[],
         list:[
             {
                 type:"Calculo integral",
