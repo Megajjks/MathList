@@ -37,7 +37,7 @@ export default function EjerciciosTemplate({
       <main className="flex min-h-screen flex-col items-center sm:p-24 p-4">
         <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm flex flex-col">
           <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center">
-            {`Ejercicios con ${page?.name}`}
+            {`${t("title")} ${page?.name}`}
           </h1>
           {page &&
             page.examplesImageOfUseApp &&

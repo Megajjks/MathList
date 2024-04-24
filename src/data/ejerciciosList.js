@@ -41,7 +41,12 @@ export const ejerciciosList = [
     {
         key:"app-2",
         name:"Mathway",
-        examplesImageOfUseApp:[],
+        examplesImageOfUseApp:[
+            {
+                path:"/exampleimg.jpg",
+                alt:"img 1"
+            },
+        ],
         list:[
             {
                 type:"Calculo integral",
